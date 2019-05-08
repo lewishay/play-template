@@ -1,2 +1,3 @@
 # play-template
-My template for a Scala Play project
+
+This is a template I use for a new Scala Play project.
