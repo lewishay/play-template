@@ -1,7 +1,9 @@
 val appName = "ChangeMe"
 val testScope = "test, it"
 
-val compile: Seq[ModuleID] = Seq()
+val compile: Seq[ModuleID] = Seq(
+  guice
+)
 
 val test: Seq[ModuleID] = Seq(
   "com.github.tomakehurst" % "wiremock-jre8" % "2.23.2" % testScope,
